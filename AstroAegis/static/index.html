@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AstroAegis | Crew Health Intelligence</title>
+  <!-- Astro Health compatibility marker -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/svg+xml" href="logo.svg">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar"></aside>
+    <main id="main"><div class="empty">Loading AstroAegis…</div></main>
+  </div>
+  <input type="file" id="profile-import" accept="application/json,.json" hidden>
+  <input type="file" id="database-import" accept="application/json,.json" hidden>
+  <dialog id="profile-dialog"></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
